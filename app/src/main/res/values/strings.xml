@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Android Cookbook</string>
+    <!--Fragment title-->
+    <string name="layout_title">Layout Examples</string>
+    <string name="auth_title">Auth Example</string>
+    <string name="video_title">Video Example</string>
+
+
+    <!--Layout screens-->
+    <string name="navigation_title">Navigation Example</string>
+    <string name="recyclerview_title">RecylerView Example</string>
+    <string name="viewpager_title">Viewpager Example</string>
+    <string name="view_title">View Examples</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--Auth labels-->
+
+
+    <!--Video labels-->
+
+
+</resources>

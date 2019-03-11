@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="layout_colorPrimary">@android:color/holo_orange_light</color>
+    <color name="layout_colorPrimaryDark">@android:color/holo_orange_dark</color>
+    <color name="layout_colorAccent">@android:color/holo_blue_bright</color>
+
+    //picked colors from color-hex.com
+    <color name="auth_colorPrimary">#d81111</color>
+    <color name="auth_colorPrimaryDark">#7c0e0e</color>
+    <color name="auth_colorAccent">#27e12a</color>
+
+
+    <color name="video_colorPrimary">#1111f4</color>
+    <color name="video_colorPrimaryDark">#191970</color>
+    <color name="video_colorAccent">#f4eb11</color>
+
+
+</resources>

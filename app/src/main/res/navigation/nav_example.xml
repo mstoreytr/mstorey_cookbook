@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_example"
+    app:startDestination="@id/navigationExampleRoot">
+
+    <fragment
+        android:id="@+id/navigationExampleRoot"
+        android:name="com.mstorey.androidcookbook.main.examples.layout.navigation.NavigationExampleRoot"
+        android:label="fragment_navigation_example_root"
+        tools:layout="@layout/fragment_navigation_example_root" >
+        <action
+            android:id="@+id/action_navigationExampleRoot_to_navigationExample1A"
+            app:destination="@id/navigationExample1A" />
+        <action
+            android:id="@+id/action_navigationExampleRoot_to_navigationExample2A"
+            app:destination="@id/navigationExample2A" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationExample1A"
+        android:name="com.mstorey.androidcookbook.main.examples.layout.navigation.NavigationExample1A"
+        android:label="fragment_navigation_example1a"
+        tools:layout="@layout/fragment_navigation_example1a" >
+        <action
+            android:id="@+id/action_navigationExample1A_to_navigationExample1B"
+            app:destination="@id/navigationExample1B" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationExample1B"
+        android:name="com.mstorey.androidcookbook.main.examples.layout.navigation.NavigationExample1B"
+        android:label="fragment_navigation_example1_b"
+        tools:layout="@layout/fragment_navigation_example1_b" />
+    <fragment
+        android:id="@+id/navigationExample2A"
+        android:name="com.mstorey.androidcookbook.main.examples.layout.navigation.NavigationExample2A"
+        android:label="fragment_navigation_example2a"
+        tools:layout="@layout/fragment_navigation_example2a" >
+        <action
+            android:id="@+id/action_navigationExample2A_to_navigationExample2B"
+            app:destination="@id/navigationExample2B" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigationExample2B"
+        android:name="com.mstorey.androidcookbook.main.examples.layout.navigation.NavigationExample2B"
+        android:label="fragment_navigation_example2_b"
+        tools:layout="@layout/fragment_navigation_example2_b" />
+</navigation>
